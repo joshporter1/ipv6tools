@@ -12,16 +12,26 @@ The IPv6 framework is a robust set of modules and plugins that allow a user to a
 
 * python 2.7
 * pip
+* npm
 
 ## Installation
 
 1. `$ git clone http://github.com/ronmajic/ipv6tools.git`
-2. `$ sudo pip install -r requirements.txt`
+  * *Temporary: `git checkout dev`*
+2. `$ npm run setup`
 
 ## Usage
 
-1. Run `$ sudo python server.py`
-2. Navigate to [http://localhost:5000](http://localhost:5000) in a Chrome web browser
+### Web client - dev
+1. Run `$ npm run serve`
+2. In a separate terminal, run `$ npm run dev`
+3. Navigate to [http://localhost:8081](http://localhost:8081) in a web browser
+
+### Web client - prod
+1. `$ npm run start`
+2. Navigate to [http://localhost:8080](http://localhost:8080) in a web browser
+
+### CLI
 
 ## Modules
 
